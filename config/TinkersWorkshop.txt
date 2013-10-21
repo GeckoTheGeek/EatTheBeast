@@ -1,0 +1,383 @@
+# Configuration file
+
+####################
+# alpha behavior
+####################
+
+"alpha behavior" {
+    B:"Regenerate HP from food"=false
+    B:"Remove hunger"=false
+}
+
+
+####################
+# battlegear
+####################
+
+battlegear {
+    B:"Are Hatches also weapons"=true
+    B:"Can Cleavers have shields"=true
+}
+
+
+####################
+# block
+####################
+
+block {
+    I:Aggregator=1541
+    I:Barricade=1542
+    I:"Birch Barricade"=1593
+    I:"Casting Channel"=1598
+    I:"Clear Glass"=1543
+    I:"Clear Stained Glass"=1544
+    I:"Clear Stained Glass Pane"=1545
+    I:"Congealed Slime"=1599
+    I:"Crafting Slab"=1600
+    I:"Crafting Station"=1594
+    I:"Drying Rack"=1546
+    I:"Essence Extractor"=1601
+    I:"Glass Pane"=1547
+    I:"Held Item Block"=1548
+    I:"Jungle Barricade"=1595
+    I:Landmine=1549
+    I:"Lava Tank"=1550
+    I:"Light Crystal"=1551
+    I:"Liquid Blue Slime"=1602
+    I:"Liquid Cow"=1552
+    I:"Meat Block"=1603
+    I:"Metal Storage"=1553
+    I:"Molten Aluminum"=1554
+    I:"Molten Aluminum Brass"=1555
+    I:"Molten Alumite"=1556
+    I:"Molten Ardite"=1557
+    I:"Molten Bronze"=1558
+    I:"Molten Cobalt"=1559
+    I:"Molten Copper"=1560
+    I:"Molten Electrum"=1561
+    I:"Molten Emerald"=1562
+    I:"Molten Ender"=1604
+    I:"Molten Glass"=1563
+    I:"Molten Gold"=1564
+    I:"Molten Invar"=1565
+    I:"Molten Iron"=1566
+    I:"Molten Lead"=1567
+    I:"Molten Manyullyn"=1568
+    I:"Molten Nickel"=1569
+    I:"Molten Obsidian"=1570
+    I:"Molten Platinum"=1571
+    I:"Molten Silver"=1572
+    I:"Molten Steel"=1573
+    I:"Molten Stone"=1574
+    I:"Molten Tin"=1575
+    I:"Multi Brick"=1576
+    I:"Multi Brick Fancy"=1577
+    I:"Oak Barricade"=1469
+    I:"Ore Berry One"=1578
+    I:"Ore Berry Two"=1579
+    I:"Ores Gravel"=1580
+    I:"Ores Slag"=1581
+    I:Punji=1596
+    I:"Redstone Machines"=1582
+    I:"Seared Slab"=1583
+    I:"Seared Table"=1584
+    I:"Slime Channel"=1611
+    I:"Slime Grass"=1605
+    I:"Slime Grass Leaves"=1606
+    I:"Slime Pad"=1612
+    I:"Slime Tall Grass"=1607
+    I:"Slime Tree Sapling"=1608
+    I:Smeltery=1585
+    I:"Special Soil"=1586
+    I:"Speed Block"=1587
+    I:"Speed Slab"=1588
+    I:"Spruce Barricade"=1597
+    I:"Stained Glass"=1589
+    I:"Stone Torch"=1590
+    I:"Tool Forge"=1591
+    I:"Wood Tool Station"=1592
+    I:"Wool Slab 1"=1609
+    I:"Wool Slab 2"=1610
+}
+
+
+####################
+# difficulty changes
+####################
+
+"difficulty changes" {
+    B:"Craft Stencil Tables"=true
+    B:"Craft metals with Wood Patterns"=false
+    B:"Craft vanilla metal blocks"=true
+    B:"Deny creation of non-metal mattocks"=false
+    B:"Enable Auto-Smelt and Fortune interaction"=true
+    B:"Enable mod blue slime tools"=true
+    B:"Enable mod bone tools"=true
+    B:"Enable mod cactus tools"=true
+    B:"Enable mod flint tools"=true
+    B:"Enable mod netherrack tools"=true
+    B:"Enable mod paper tools"=true
+    B:"Enable mod slime tools"=true
+    B:"Enable mod stone tools"=true
+    B:"Enable mod wooden tools"=true
+    B:"Keep hunger on death"=true
+    B:"Keep levels on death"=true
+    B:"Lower bronze output to 2 ingots"=false
+    B:"Modifiers increase Mining Level"=true
+    B:"Remove Vanilla GregTech Nerfs"=true
+    B:"Remove Vanilla Tool Recipes"=false
+    B:"Spawn beginner book"=true
+}
+
+
+####################
+# dimblacklist
+####################
+
+dimblacklist {
+    B:GenerateSlimeIslandInDim0Only=false
+    I:SlimeIslandDimBlacklist <
+     >
+    B:slimeIslGenDim0=true
+}
+
+
+####################
+# equipables
+####################
+
+equipables {
+    I:Gloves=5671
+    I:"Heart Canister"=5672
+    I:"Heavy Boots"=5673
+    I:"Heavy Chestplate"=5674
+    I:"Heavy Helmet"=5675
+    I:"Heavy Pants"=5676
+    I:Knapsack=5677
+}
+
+
+####################
+# experimental
+####################
+
+experimental {
+    B:"Items can be thrown into smelteries"=true
+}
+
+
+####################
+# general
+####################
+
+general {
+    I:"Sea level"=64
+}
+
+
+####################
+# looks
+####################
+
+looks {
+    # 0 = disabled, 1 = enabled, 2 = enabled + ignore stained glass meta
+    B:"Connected Textures Enabled"=true
+}
+
+
+####################
+# mob spawning
+####################
+
+"mob spawning" {
+    B:"Activate Blue Slime Spawns"=true
+    I:"Spawn Weight for Blue Slime"=6
+}
+
+
+####################
+# patterns and misc
+####################
+
+"patterns and misc" {
+    I:"Blank Patterns"=5678
+    I:Buckets=5679
+    I:"Essence Crystal"=5739
+    I:"Golden Head"=5680
+    I:Jerky=5740
+    I:"Jeweled Apple"=5681
+    I:Materials=5682
+    I:"Metal Pattern"=5683
+    I:"Ore Chunks"=5684
+    I:"Strange Food"=5685
+    I:"Tinker's Manual"=5686
+    I:"Title Icon"=5687
+    I:"Tool Rod"=5688
+    I:"Tool Shard"=5689
+    I:"Wood Pattern"=5690
+}
+
+
+####################
+# superfun
+####################
+
+superfun {
+    B:"All the world is Superfun"=false
+}
+
+
+####################
+# tool parts
+####################
+
+"tool parts" {
+    I:Arrowhead=5691
+    I:"Axe Head"=5692
+    I:Bowstring=5693
+    I:"Chisel Head"=5694
+    I:Crossbar=5695
+    I:"Excavator Head"=5696
+    I:Fletching=5697
+    I:"Frypan Head"=5698
+    I:"Full Guard"=5699
+    I:"Hammer Head"=5700
+    I:"Hoe Head"=5701
+    I:"Knife Blade"=5702
+    I:"Large Guard"=5703
+    I:"Large Plate"=5704
+    I:"Large Sword Blade"=5705
+    I:"Lumber Axe Head"=5706
+    I:"Medium Guard"=5707
+    I:"Pickaxe Head"=5708
+    I:"Scythe Head"=5709
+    I:"Shovel Head"=5710
+    I:"Sign Head"=5711
+    I:"Sword Blade"=5712
+    I:"Tool Binding"=5713
+    I:"Tough Binding"=5714
+    I:"Tough Rod"=5715
+}
+
+
+####################
+# tools
+####################
+
+tools {
+    I:Arrow=5716
+    I:Axe=5717
+    I:Battleaxe=5718
+    I:Battlesign=5719
+    I:Broadsword=5720
+    I:Chisel=5721
+    I:Cleaver=5722
+    I:Cutlass=5723
+    I:Dagger=5724
+    I:Excavator=5725
+    I:"Frying Pan"=5726
+    I:Hammer=5727
+    I:Hoe=5728
+    I:Longbow=5729
+    I:Longsword=5730
+    I:"Lumber Axe"=5731
+    I:Mattock=5732
+    I:Pickaxe=5733
+    I:"Potion Launcher"=5734
+    I:Rapier=5735
+    I:Scythe=5736
+    I:Shortbow=5737
+    I:Shovel=5738
+}
+
+
+####################
+# ultra hardcore changes
+####################
+
+"ultra hardcore changes" {
+    # Gives all tier 1 patterns when pattern chest is placed
+    B:"Add Patterns to Pattern Chests"=false
+    B:"Add World Border"=false
+
+    # Makes recipes for gold apples, carrots, and melon potions more expensive
+    B:"Change Crafting Recipes"=false
+    B:"Change Ghast drops to Gold Ingots"=false
+    B:"Necrotic modifier only heals on hostile mob kills"=false
+    B:"Passive Health Regen"=true
+    B:"Players drop heads on death"=false
+    I:"World Border Radius"=1000
+}
+
+
+####################
+# worldgen
+####################
+
+worldgen {
+    I:"Aluminum Bush Density"=2
+    I:"Aluminum Bush Max Y"=60
+    I:"Aluminum Bush Min Y"=0
+    I:"Aluminum Bush Rarity"=2
+    I:"Aluminum Surface Rarity"=50
+    I:"Aluminum Underground Density"=3
+    I:"Aluminum Underground Max Y"=64
+    I:"Aluminum Underground Min Y"=0
+    I:"Cobalt Surface Rarity"=2000
+    I:"Copper Bush Density"=2
+    I:"Copper Bush Max Y"=60
+    I:"Copper Bush Min Y"=20
+    I:"Copper Bush Rarity"=3
+
+    # Rarity: 1/num to generate in chunk
+    I:"Copper Surface Rarity"=100
+
+    # Density: Chances per chunk
+    I:"Copper Underground Density"=2
+    I:"Copper Underground Max Y"=60
+    I:"Copper Underground Min Y"=20
+    I:"Essence Bush Rarity"=6
+    I:"Gold Bush Density"=1
+    I:"Gold Bush Rarity"=8
+    I:"Gold Surface Rarity"=900
+    I:"Iron Bush Density"=1
+    I:"Iron Bush Rarity"=5
+    I:"Iron Surface Rarity"=400
+    I:"Nether Ores Density"=8
+    I:"Silver Bush Density"=1
+    I:"Slime Island Rarity"=450
+    I:"Tin Bush Density"=2
+    I:"Tin Bush Max Y"=40
+    I:"Tin Bush Min Y"=0
+    I:"Tin Bush Rarity"=3
+    I:"Tin Surface Rarity"=100
+    I:"Tin Underground Density"=2
+    I:"Tin Underground Max Y"=40
+    I:"Tin Underground Min Y"=0
+}
+
+
+####################
+# worldgen disabler
+####################
+
+"worldgen disabler" {
+    B:"Add Village Generation"=true
+    B:"Generate Aluminum"=true
+    B:"Generate Aluminum Bushes"=true
+    B:"Generate Cobalt and Ardite"=true
+    B:"Generate Copper"=false
+    B:"Generate Copper Bushes"=true
+    B:"Generate Essence Bushes"=true
+    B:"Generate Gold Bushes"=true
+    B:"Generate Iron Bushes"=true
+    B:"Generate Surface Aluminum"=true
+    B:"Generate Surface Copper"=true
+    B:"Generate Surface Gold"=true
+    B:"Generate Surface Iron"=true
+    B:"Generate Surface Tin"=true
+    B:"Generate Tin"=false
+    B:"Generate Tin Bushes"=true
+}
+
+
